@@ -9,6 +9,7 @@ group :test do
   gem 'rubocop', '~> 0.32'
   gem 'simplecov', '~> 0.10'
   gem 'concurrent-ruby', '~> 0.9'
+  gem 'coveralls', require: false
 end
 
 group :integration do

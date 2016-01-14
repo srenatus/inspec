@@ -1,5 +1,6 @@
 # InSpec: Inspect Your Infrastructure
 
+DELETE ME
 InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements.
 
 ```ruby

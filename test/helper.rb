@@ -7,6 +7,8 @@ require 'minitest/spec'
 require 'mocha/setup'
 
 require 'simplecov'
+require 'coveralls'
+SimpleCov.formatter = Coveralls::SimpleCov::Formatter
 SimpleCov.start do
   add_filter '/test/'
   add_group 'Resources', 'lib/resources'
